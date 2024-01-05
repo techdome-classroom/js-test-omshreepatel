@@ -25,12 +25,4 @@ var isValid = function(s) {
     return stack.length === 0
 };
 
-
-// Test cases
-console.log(isValid("()")); // Output: true
-console.log(isValid("()[]{}")); // Output: true
-console.log(isValid("(]")); // Output: false
-
 module.exports = { isValid };
-
-
