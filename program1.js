@@ -13,9 +13,9 @@ var isValid = function(s) {
     for (let i = 0; i < s.length; i++) {
         const char = s[i];
         if (pairs[char]) {
-            stack.push(char); // Push opening brackets onto the stack
+            stack.push(char); 
         } else {
-            const last = stack.pop(); // Pop the last opening bracket from the stack
+            const last = stack.pop(); stack
             if (pairs[last] !== char) {
                 return false; // If the corresponding closing bracket does not match, return false
             }
