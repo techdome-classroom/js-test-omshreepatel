@@ -3,10 +3,6 @@
  * @return {boolean}
  */
 var isValid = function(s) {
-    
-};
-
-function isValid(s) {
     const stack = [];
     const pairs = {
         '(': ')',
@@ -26,7 +22,11 @@ function isValid(s) {
         }
     }
 
-    return stack.length === 0; // If there are remaining opening brackets in the stack, return false
+    return stack.length === 0
+};
+
+function isValid(s) {
+   ; // If there are remaining opening brackets in the stack, return false
 }
 
 // Test cases
