@@ -17,7 +17,7 @@ var isValid = function(s) {
         } else {
             const last = stack.pop(); stack
             if (pairs[last] !== char) {
-                return false; // If the corresponding closing bracket does not match, return false
+                return false;
             }
         }
     }
