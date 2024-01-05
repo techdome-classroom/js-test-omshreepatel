@@ -25,9 +25,6 @@ var isValid = function(s) {
     return stack.length === 0
 };
 
-function isValid(s) {
-   ; // If there are remaining opening brackets in the stack, return false
-}
 
 // Test cases
 console.log(isValid("()")); // Output: true
